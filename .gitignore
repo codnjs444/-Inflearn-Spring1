@@ -21,3 +21,15 @@ out/
 *.lock
 *.bin
 *.lock
+.gradle/8.10.1/checksums/checksums.lock
+.gradle/8.10.1/executionHistory/executionHistory.bin
+.gradle/8.10.1/executionHistory/executionHistory.lock
+.gradle/8.10.1/fileHashes/fileHashes.bin
+.gradle/8.10.1/fileHashes/fileHashes.lock
+.gradle/8.10.1/fileHashes/resourceHashesCache.bin
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/file-system.probe
+.idea/workspace.xml
+build/classes/java/main/hello/hello_spring/controller/HelloController.class
+build/tmp/compileJava/previous-compilation-data.bin
