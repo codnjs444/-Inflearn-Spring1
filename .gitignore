@@ -1,0 +1,23 @@
+ 
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+*.iws
+*.ipr
+out/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Other
+*.lock
+*.lock
+*.bin
+*.lock
