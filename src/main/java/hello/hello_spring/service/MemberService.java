@@ -5,6 +5,7 @@ import hello.hello_spring.repository.MemberRepository;
 import hello.hello_spring.repository.MemoryMemberRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 public class MemberService {
     private final MemberRepository memberRepository = new MemoryMemberRepository();
@@ -29,5 +30,12 @@ public class MemberService {
      */
     public List<Member> findMembers() {
         return memberRepository.findAll();
+    }
+
+    /**
+     * 회원 조회
+     */
+    public Optional<Member> findOne(Long memberId){
+        return memberRepository.findById(memberId);
     }
 }
