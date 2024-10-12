@@ -54,6 +54,7 @@ class MemberServiceTest {
         //then
     }
 
+    // test
     @Test
     void findMembers() {
     }
