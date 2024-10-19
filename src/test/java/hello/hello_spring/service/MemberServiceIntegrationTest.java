@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Commit;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -19,11 +20,12 @@ class MemberServiceIntegrationTest {
     @Autowired MemberService memberService;
     @Autowired MemberRepository memberRepository;
 
+    @Commit
     @Test
     void 회원가입() {
         //given
         Member member = new Member();
-        member.setName("hello222");
+        member.setName("hello");
 
         //when
         Long saveId = memberService.join(member);
